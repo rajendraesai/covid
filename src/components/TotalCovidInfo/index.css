@@ -1,0 +1,36 @@
+.background-container {
+  background-color: #161625;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.confirmed {
+  color: #ff073a;
+  text-align: center;
+  width: 160px;
+}
+
+.active {
+  color: #007bff;
+  text-align: center;
+  width: 160px;
+}
+
+.recovered {
+  color: #28a745;
+  text-align: center;
+  width: 160px;
+}
+
+.deceased {
+  color: #6c757d;
+  text-align: center;
+  width: 160px;
+}
+
+@media (max-width: 768px) {
+  .background-container {
+    flex-wrap: wrap;
+  }
+}

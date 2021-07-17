@@ -1,0 +1,85 @@
+.bg-container {
+  background-color: #161625;
+  padding: 40px;
+}
+
+.state-list-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+@media (min-width: 768px) {
+  .state-info-container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .bg-container {
+    overflow: scroll;
+  }
+
+  .state-info-container {
+    width: 500px;
+  }
+
+  .state-list-container {
+    font-size: 10px;
+    padding: 10px;
+  }
+
+  .info-heading {
+    font-size: 12px;
+  }
+}
+
+.state-info-container {
+  border: solid 1px grey;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.state-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.line {
+  color: grey;
+  border: solid 1px grey;
+}
+
+.info-heading {
+  color: White;
+}
+
+.state-name {
+  color: White;
+  width: 100px;
+}
+
+.confirmed {
+  color: red;
+}
+
+.active {
+  color: blue;
+}
+
+.recovered {
+  color: green;
+}
+
+.deceased {
+  color: #6c757d;
+}
+
+.population {
+  color: #94a3b8;
+}

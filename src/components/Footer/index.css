@@ -1,0 +1,35 @@
+.bg-container {
+  background-color: #161625;
+  text-align: center;
+}
+
+.heading {
+  color: white;
+  font-family: 'bree serif';
+}
+
+.text {
+  color: #94a3b8;
+  font-size: 16px;
+}
+
+.foot-logo {
+  height: 100px;
+  width: 100px;
+  padding: 30px;
+}
+
+@media (max-width: 768px) {
+  .foot-logo {
+    height: 100px;
+    width: 100px;
+  }
+
+  .text {
+    font-size: 10px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+}
