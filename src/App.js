@@ -1,6 +1,7 @@
 import {Switch, Route} from 'react-router-dom'
 
 import CovidIndia from './components/CovidIndia'
+import EachState from './components/EachState'
 import NotFound from './components/NotFound'
 import './App.css'
 
@@ -158,6 +159,7 @@ const statesList = [
 const App = () => (
   <Switch>
     <Route exact path="/" component={CovidIndia} statesList={statesList} />
+    <Route path="/states/:id" component={EachState} />
     <Route component={NotFound} />
   </Switch>
 )
